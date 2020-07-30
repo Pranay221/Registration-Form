@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Registration form</h1><br><br>
+	<div id="form">
+	    <form method="get">
+		    First Name: <input type="text" name="firstname" id="nm" required><br><br>
+		    Last Name: <input type="text" name="lastname" id="lnm" required><br><br>
+		    Email: <input type="email" name="email" id="mail" required><br><br>
+		    Password: <input type="password" name="password" id="pass" min="5" required><br><br>
+		    Gender:<br>
+		       <input type="radio" name="gender" value="Male">Male<br>
+		       <input type="radio" name="gender" value="Female">Female<br>
+		       <input type="radio" name="gender" value="Other">Other<br><br>
+		    DOB: <input type="date" name="birthday" id="bday" required><br><br>
+		    Institute: 
+		    <select id="college">
+			    <option value="SRM INSTITUTE OF SCIENCE AND TECHNOLOGY">SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</option>
+			    <option value="Vellore Institute of Science and Technology">Vellore Institute of Science and Technology</option>
+		    </select><br><br>
+		    <input type="button" value="Register and Download" id="bt">&ensp;
+		    <input type="reset">
+	    </form>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
